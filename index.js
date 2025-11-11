@@ -28,7 +28,7 @@ app.use(helmet());
 app.use(express.json());
 
 app.use(cors({
-    origin: process.env.CLIENT_URL || '*', // на проде поставь точный домен фронта
+    origin: process.env.CLIENT_URL || '*',
 }))
 
 const limiter = rateLimit({
