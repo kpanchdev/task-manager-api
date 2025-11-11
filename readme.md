@@ -136,12 +136,6 @@ PORT=4444
 
 ---
 
-## License
-
-MIT License © 2025 Kiril Panchenko
-
----
-
 ## About
 
 This project was built as part of my backend development portfolio.
